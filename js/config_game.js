@@ -12,6 +12,10 @@ function restart() {
     document.location.reload(true);
 }
 
+/*
+Função para atualização do score
+*/
+
 const jump = () => {
     if (fim == 1) {
         restart();
