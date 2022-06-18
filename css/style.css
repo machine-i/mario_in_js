@@ -47,12 +47,15 @@
     animation: game-over-opacidade 1s;
 }
 
-/* .score {
-    width: 50px;
-    bottom: 10px;
-    position: absolute;
-    left: 50%;
-} */
+.score {
+    width: 3%;
+    height: 7%;
+    float: right;
+}
+
+#scoreDezena {
+    opacity: 0;
+}
 
 @keyframes pipe-animation {
     from {
